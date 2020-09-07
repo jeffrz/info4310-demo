@@ -8,7 +8,7 @@ app.wsgi_app = WhiteNoise(app.wsgi_app, root='static/', prefix='static/', index_
 
 @app.route('/', methods=['GET'])
 def hello():
-    return make_response("Hello, world!!!!!!!!!")
+    return make_response("Hello, world!!!!!!!!!!!!!")
     
 
 if __name__ == "__main__":
